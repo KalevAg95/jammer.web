@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(61, 94, 165); 
+    color: #ffffff;
+}
+
+.container{
+    padding: 20px;
+}
+footer{
+    background-color: #273D6D;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #273D6D; /*38AECC lighter blue from pallete*/
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#3D5EA5;
+}
